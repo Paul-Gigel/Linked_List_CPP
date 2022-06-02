@@ -1,5 +1,5 @@
 #include <iostream>
-#include "linkedList.h"
+#include "Header.h"
 extern linkedList;
 extern initptr;
 extern initptr& init(void);
@@ -8,5 +8,5 @@ int main()
 {
     linkedList* lL = new linkedList;
     append(*lL);
+    std::cout << "helloworld";
 }
-

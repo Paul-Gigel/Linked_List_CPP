@@ -1,7 +1,7 @@
 Debug/
 .vs/
-testprojekt001.sln
-testprojekt001/Debug
-testprojekt001/*.vcx*
+*.sln
+x64/
+*.vcx*
 .vscode/
 *.json

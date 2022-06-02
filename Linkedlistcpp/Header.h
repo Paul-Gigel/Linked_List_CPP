@@ -1,10 +1,10 @@
 #pragma once
-struct linkedList	
+struct linkedList
 {
 	int ival;
-	linkedList *next;
+	linkedList* next;
 };
-struct initptr		
+struct initptr
 {
 	linkedList* begin, * helper, * instance;
 };
